@@ -1,0 +1,25 @@
+body {
+    font-family: Roboto, sans-serif;
+    color :black;
+    background-color: #fff;
+}
+ul {
+    list-style-type: none;
+}
+.link {
+  color: black;  
+}
+.link:hover {
+    color: #404BBF;
+}
+.link:focus {
+    color: #4D5AE5;
+}
+.logo {
+    width: 115px;
+    height: 24px;
+    color: #2E2F42;
+}
+span {
+    color: #4D5AE5;
+}
