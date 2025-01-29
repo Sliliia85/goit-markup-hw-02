@@ -1,19 +1,10 @@
 body {
     font-family: Roboto, sans-serif;
-    color :black;
+    color :#434455;
     background-color: #fff;
 }
-ul {
-    list-style-type: none;
-}
-.link {
-  color: black;  
-}
-.link:hover {
-    color: #404BBF;
-}
-.link:focus {
-    color: #4D5AE5;
+header {
+    background-color: #FFFFFF;
 }
 .logo {
     width: 115px;
@@ -22,4 +13,67 @@ ul {
 }
 span {
     color: #4D5AE5;
+}
+ul {
+    list-style-type: none;
+}
+.link {
+  font-family: Roboto, sans-serif;
+  color: #2E2F42;  
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.33;
+  text-decoration: underline;
+}
+.link:hover {
+    color: #404BBF;
+}
+.link:focus {
+    color: #4D5AE5;
+}
+address {
+    color: inherit;
+}
+address:hover {
+    color: #404BBF;
+}
+div {
+    background-color: #2E2F42;
+}
+h1 {
+    font-size: 56px;
+    font-weight: bold;
+    line-height: 1.07;
+    color: #FFFFFF;
+}
+
+button {
+    font-family: Roboto, sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #FFFFFF;
+    letter-spacing: 0.04em;
+    background-color: #4D5AE5;
+    cursor: pointer;
+}
+h2 {
+    font-weight: bold;
+    font-size: 36px;
+    letter-spacing: 0.02em;
+}
+h3 {
+font-weight: medium;
+font-size: 20px;
+letter-spacing: 2%;
+}
+p {
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #434455;
+}
+.team-card {
+    background-color: #FFFFFF;
 }
